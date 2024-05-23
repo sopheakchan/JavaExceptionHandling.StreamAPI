@@ -14,7 +14,7 @@ import java.util.*;
 
 
 public class CourseServiceImp implements CourseService{
-    private static final String MAIN_FILE = "src\\repository\\course.dat";
+    private static final String MAIN_FILE = "repository\\course.dat";
     @Override
     public void addNewCourse() {
         Scanner scanner = new Scanner(System.in);
